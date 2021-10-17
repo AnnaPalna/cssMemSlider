@@ -177,3 +177,36 @@
 #slider_wrapper #button-2:checked~#slider-text>ul { left: -16rem }
 #slider_wrapper #button-3:checked~#slider-text>ul { left: -31rem }
 #slider_wrapper #button-4:checked~#slider-text>ul { left: -46rem }
+
+
+/* Mobile */
+
+@media (max-width: 420px) {
+    #slider_wrapper {
+        padding: 2rem 1.5rem;
+        width: 70rem;
+        height: 50rem;
+    }
+    #slider-text {
+        margin-top: 6rem;
+        font-size: 3.5rem;
+        width: 20%;
+        margin-left: 42%;
+    }
+
+    #slider_wrapper label[for=button-1] {
+       margin-left: -58%;
+    }
+
+    #slider_wrapper label {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1.5rem;
+    }
+
+    #slider_wrapper #button-1:checked~#slider-text>ul { left: 0 }
+#slider_wrapper #button-2:checked~#slider-text>ul { left: -20rem }
+#slider_wrapper #button-3:checked~#slider-text>ul { left: -38rem }
+#slider_wrapper #button-4:checked~#slider-text>ul { left: -58rem }
+
+}
